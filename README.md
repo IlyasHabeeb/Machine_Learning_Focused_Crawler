@@ -5,12 +5,12 @@ The list of files are as follows:
 
 <b>1. Crawler_ML.py:</b> This is the python crawler. It runs as follows:
 
-<b><i>python Crawler_ML.py withoutML</b></i> - To run Focused Crawler without Machine Learning
+<b><i>python Crawler_ML.py withoutML</b></i> - To run Focused Crawler without Machine Learning <br />
 <b><i>python Crawler_ML.py withML</b></i> - To run Focused Crawler with Machine Learning
 
 After executing the above command, the program asks for the following input:
 
-<b><i>Please Enter the Query in small letters (Words Should be Spaced):</b></i> election results
+<b><i>Please Enter the Query in small letters (Words Should be Spaced):</b></i> election results <br />
 <b><i>Please Enter the Number of Pages to Crawl:</b></i> 1000
 
 Currently, the crawler supports queries with only the following words:
@@ -28,16 +28,27 @@ Currently, the crawler supports queries with only the following words:
 Note: 2, 3, 4, 5 outputs the following:
 
 i) Name of the URL
+
 ii) Time the URL was Crawled
+
 iii) Size of the Page
+
 iv) Status Code
+
 v) HyperLink Text Info: (text, depth of the link)
+
 vi) Estimated Promise (only for focused crawler)
+
 vii) Cosine Relevance Score
+
 viii) Statistics of the Entire Crawl that includes:
+
 	a) Crawl Start Time
+	
 	b) Crawl End Time
+	
 	c) Time it took to Crawl: hh:mm:ss
+	
 	d) Harvest Score 
 
 <b>6. Project Report</b> - A pdf file that describes the Project in detail.
